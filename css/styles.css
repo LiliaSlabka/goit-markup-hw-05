@@ -542,6 +542,12 @@ img {
 }
 
 .clients-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon {
   fill: var(--paragraph-txt-color);
 }
 
